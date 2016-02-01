@@ -52,7 +52,7 @@ p {
 }
 
 .bg-primary {
-    background-color: #f05f40;
+    background-color: #00868b;
 }
 
 .bg-dark {
@@ -89,7 +89,8 @@ aside {
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
-    color: #ff0000;
+    /*color: #ff0000;*/ /*on hovering over ASTIKA GUPTA on navbar*/
+   /*color: red;*/
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -129,7 +130,9 @@ aside {
 
     .navbar-default .navbar-header .navbar-brand {
         /*color: rgba(255,255,255,.7);*/
-        color:#eb3812;
+        /*color:#eb3812;*/
+        color: #00868b; /*turqouise*/
+        /*color:red;*/
     }
 
     .navbar-default .navbar-header .navbar-brand:hover,
@@ -140,7 +143,8 @@ aside {
     .navbar-default .nav > li>a,
     .navbar-default .nav>li>a:focus {
         /*color: rgba(255,255,255,.7);*/
-        color: #eb3812;
+        /*color: #eb3812;*/
+        color:#00868b;
     }
 
     .navbar-default .nav > li>a:hover,
@@ -181,8 +185,16 @@ aside {
     padding-top:10;
 }
 #footer{
-    background-color: #eb3812;
+    /*background-color: #eb3812;*/
+    background-color: #00868b;
     background-size: 50;
+    color: white;
+}
+#mailtocolor{
+    color:#00868b;
+}
+#skillheadercolor{
+    color:#00868b;
 }
 header {
     position: relative;
@@ -400,7 +412,9 @@ fieldset[disabled] .btn-default.active {
 .btn-primary {
     border-color: #f05f40;
     color: #fff;
-    background-color: #f05f40;
+   /* background-color: #f05f40; */
+   background-color: #00868b;
+    /*background-color: red;*/
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
