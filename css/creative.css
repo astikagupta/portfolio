@@ -183,6 +183,7 @@ aside {
     padding-left: 10;
     padding-right: 10;
     padding-top:10;
+    
 }
 #footer{
     /*background-color: #eb3812;*/
@@ -288,6 +289,7 @@ header .header-content .header-content-inner p {
     position: relative;
     margin: 0 auto;
     max-width: 650px;
+    border-color: #00868b;
 }
 
 .portfolio-box .portfolio-box-caption {
