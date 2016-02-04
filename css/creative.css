@@ -191,6 +191,99 @@ aside {
     background-size: 50;
     color: white;
 }
+#myname{
+    font-family: fantasy;
+    font-weight: bolder;
+    font-family: Chunkfive;
+}
+#twodots{
+color: #008680;
+}
+@font-face {
+    font-family: Chunkfive;
+    src: url('Chunkfive.otf');
+}
+#s1,#s2,#s3{
+   /* display:inline-block;
+    width:33.33%;
+    height:300px;*/
+    -webkit-flex:1;
+    flex:1;
+    /*border:thin solid #777;*/
+}
+/*#s3{
+    display: inline-block;
+    width: auto;
+    height: 300px;
+}*/
+/*#tdata1,#tdata2,#tdata3{
+    width:33.33333333%;
+    height:300px;
+    padding-right: 10;
+    
+}*/
+/*#tdata{
+    width: auto;
+    height: 300px;
+
+}*/
+#tdata3{
+padding-right: 10;
+width:450px;
+}
+#tdata2{
+    padding-right: 10;
+    width:370px;
+    padding-left: 10;
+}
+#tdata1{
+    padding-right: 15;
+    width:350px;
+}
+#th1,#th2,#th3{
+    width:33.33%;
+}
+#bigdiv{
+    display:-webkit-flex;
+    -webkit-justify-content:center;
+
+    display:flex;
+    justify-content:center;
+}
+.mysection{
+    background-color: #B0E2FF;
+}
+#s1,#s2,#s3{
+    padding-top: 25;
+}
+#affinity th tr td{
+padding-right: 15;
+padding-top: 15;
+padding-left: 15;
+padding-bottom: 15;
+
+}
+/*#buffer1,#buffer2{
+    background-color: blue;
+}*/
+#flowmodels tr td{
+padding-right: 15;
+padding-top: 15;
+padding-left: 15;
+padding-bottom: 15;
+}
+#process1{
+   /* background-color: #4fc7ea;*/
+    padding-bottom: 15;
+}
+#process2{
+    /*background-color: #8b9dc3;*/
+    padding-bottom: 15;
+}
+#process3{
+   /* background-color: #4fc7ea;*/
+    padding-bottom: 15;
+}
 .resume{
     color:white;
 }
