@@ -60,7 +60,8 @@ p {
 }
 
 .bg-primary {
-    background-color: #00868b;
+/*     background-color: #00868b; */
+    background-color:#008080;
 }
 
 .bg-dark {
@@ -80,9 +81,9 @@ aside {
     padding: 50px 0;
 }
 
-.no-padding {
+/* .no-padding {
     padding: 0;
-}
+} */
 
 .navbar-default {
     border-color: rgba(34,34,34,.05);
